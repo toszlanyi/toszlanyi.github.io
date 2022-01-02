@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Video example</title>
-  </head>
-  <body>
-    <h1>Below is a video that will play in all modern browsers</h1>
-    <video controls>
-        <source src="/Videos/DenonDemo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-  </body>
+<head>
+<meta charset="utf-8">
+<title>Video embedding test page</title>
+</head>
+<body>
+<p>Video from Google Drive</p>
+ <video width="360" height="200" autoplay>
+  <source src="https://drive.google.com/file/d/1TbboxS8Syryjkgoch_aESU2EahH7Nwyh/view?usp=sharing" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<p>Video from Twitch</p>
+
+
+<p>Video from YouTube</p>
+
+<iframe width="360" height="200"
+src="https://www.youtube.com/embed/vsAOBa9e95Q"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+</body>
 </html>
