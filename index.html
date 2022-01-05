@@ -4,29 +4,39 @@
 <meta charset="utf-8">
 <title>Video embedding test page</title>
 </head>
+
 <body>
-<p>Video from Google Drive</p>
- <video width="360" height="200" autoplay>
-  <source src="https://drive.google.com/file/d/1TbboxS8Syryjkgoch_aESU2EahH7Nwyh/view?usp=sharing" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
-<p>Video from Twitch</p>
+    <p>Video from Google Drive</p>
 
-<iframe
-   src="https://player.twitch.tv/?video=1253620109&parent=toszlanyi.github.io&autoplay=false"
-   height="200"
-   width="360"
-   allowfullscreen="true">
-</iframe>
+        <iframe
+            src="https://drive.google.com/file/d/1TbboxS8Syryjkgoch_aESU2EahH7Nwyh/preview"
+            width="360"
+            height="200">
+        </iframe>
 
+    <p>Video from Twitch</p>
 
-<p>Video from YouTube</p>
+        <iframe
+            src="https://player.twitch.tv/?channel=rhythmandtone_official&parent=localhost"
+            height="200"
+            width="360">
+        </iframe>
 
-<iframe width="360" height="200"
-src="https://www.youtube.com/embed/vsAOBa9e95Q"
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+    <p>Video from YouTube</p>
 
+        <iframe
+            width="360" height="200"
+            src="https://www.youtube.com/embed/vsAOBa9e95Q"
+            title="YouTube video player" frameborder="0">
+        </iframe>
+
+    <p>Set (Audio) from Mixcloud</p>
+
+        <iframe
+            width="360" height="100"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FDJ_OsZ%2Ftechno-tunnel-part-46-dark-knifes-cutting-deep%2F"
+            frameborder="0">
+        </iframe>
 </body>
 </html>
